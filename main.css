@@ -1,5 +1,8 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 body {
@@ -7,26 +10,85 @@ body {
   margin: 0;
   line-height: 1.5;
   color: #333;
+  background-color: #efefef;
 }
 
 .cover {
-  padding: 0;
-  margin: 0;
-  background: url('assets/freedom.jpeg') no-repeat center;
+  background: url('assets/freedom2.jpeg') no-repeat center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
-h1 {
+.cover a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  text-decoration: none;
+  background-color: #2eb82e;
+  border: 1px solid #145214;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.cover a:hover {
+  background-color: #0f3e0f;
+  border: 1px solid #0a290a;
+  color: #e6e6ff;
+  transition: background-color .3s ease-in-out;
+}
+
+.cover h1 {
   padding-top: 1.5rem;
   text-transform: uppercase;
   font-size: 2rem;
-  text-align: center;
 }
 
-h6 {
-  font-size: 1rem;
-  text-align: center;
+.cover h6 {
   font-style: italic;
+}
+
+/* ==== MEDIA QUERY ==== */
+
+@media (max-width: 767px) {
+
+  .cover h1 {
+    padding: 3rem;
+    font-size: .5rem;
+  }
+
+  .cover h6 {
+    font-size: .125rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .cover h1 {
+    padding-top: 10rem;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #fff;
+  }
+
+  .cover h6 {
+    font-size: .7rem;
+    color: #fff;
+  }
+}
+
+@media (min-width: 1224px) {
+
+  .cover h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    color: #990000;
+  }
+
+  .cover h6 {
+    font-size: 1.5rem;
+    color: #990000;
+  }
 }
