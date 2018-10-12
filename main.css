@@ -5,6 +5,8 @@
 body {
   padding: 0;
   margin: 0;
+  line-height: 1.5;
+  color: #333;
 }
 
 .cover {
@@ -17,7 +19,7 @@ body {
 }
 
 h1 {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   text-transform: uppercase;
   font-size: 2rem;
   text-align: center;
