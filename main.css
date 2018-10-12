@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cover {
+  padding: 0;
+  margin: 0;
+  background: url('assets/freedom.jpeg') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+}
